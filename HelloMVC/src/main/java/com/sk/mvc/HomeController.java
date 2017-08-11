@@ -75,7 +75,7 @@ public class HomeController {
 		return mode==1 ? "age="+m.getAge() : "name="+m.getName(); 
 	}
 
-	// vaule는 url변경 
+	// value는 url변경 
 	@RequestMapping(value = "/list.do")
 	public String list(Model model) {
 	
